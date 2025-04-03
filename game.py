@@ -8,6 +8,7 @@ class Game:
     def __init__(self):
         self.board = Board()
         self.drag = Drag()
+        self.turn = 0
 
     def show_bg(self, surface):
         for row in range(ROWS):

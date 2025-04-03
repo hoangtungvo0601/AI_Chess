@@ -28,9 +28,9 @@ class Piece:
 
 class Pawn(Piece):
     def __init__(self, color):
-        self.dir = -1
+        self.dir = 1
         if(color == 'white'):
-            self.dir = 1
+            self.dir = -1
         
         super().__init__('pawn', color, 1.0)
 
